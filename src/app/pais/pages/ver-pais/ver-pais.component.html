@@ -5,7 +5,7 @@
 
 <ng-template #divPais>
 
-    <div class="row">
+    <div class="row mt-5">
         <div class="col-12">
             <h1>Pais: <small>{{ pais[0].name.common }}</small></h1>
         </div>
@@ -35,14 +35,14 @@
     </div>
 
     <h3>Traducciones</h3>
-    <div class="row">
+    <div class="row ">
         <div class="col">
 
-            <span class="badge bg-primary mr-1">{{ pais[0].translations['fra'].common }}</span>
-            <span class="badge bg-primary mr-1">{{ pais[0].translations['ita'].common }}</span>
-            <span class="badge bg-primary mr-1">{{ pais[0].translations['por'].common }}</span>
-            <span class="badge bg-primary mr-1">{{ pais[0].translations['rus'].common }}</span>
-            <span class="badge bg-primary mr-1">{{ pais[0].translations['tur'].common }}</span>
+            <span class="badge bg-primary mr-1">fra: {{ pais[0].translations['fra'].common }}</span>
+            <span class="badge bg-primary mr-1">ita: {{ pais[0].translations['ita'].common }}</span>
+            <span class="badge bg-primary mr-1">por: {{ pais[0].translations['por'].common }}</span>
+            <span class="badge bg-primary mr-1">rus: {{ pais[0].translations['rus'].common }}</span>
+            <span class="badge bg-primary mr-1">tur: {{ pais[0].translations['tur'].common }}</span>
 
         </div>
     </div>
